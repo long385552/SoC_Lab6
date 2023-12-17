@@ -1,0 +1,124 @@
+#-----------------------------------------------------------
+# Vivado v2022.1 (64-bit)
+# SW Build 3526262 on Mon Apr 18 15:47:01 MDT 2022
+# IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+# Start of session at: Sun Dec 17 04:52:13 2023
+# Process ID: 4427
+# Current directory: /home/ubuntu/Desktop/lab-wlos_baseline/vivado/vvd_caravel_fpga
+# Command line: vivado
+# Log file: /home/ubuntu/Desktop/lab-wlos_baseline/vivado/vvd_caravel_fpga/vivado.log
+# Journal file: /home/ubuntu/Desktop/lab-wlos_baseline/vivado/vvd_caravel_fpga/vivado.jou
+# Running On: ubuntu2004, OS: Linux, CPU Frequency: 3705.890 MHz, CPU Physical cores: 12, Host memory: 11390 MB
+#-----------------------------------------------------------
+start_gui
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es:part0:1.2 available at /tools/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/es/1.2/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es_revb:part0:1.0 available at /tools/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120_revb/es/1.0/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at /tools/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at /tools/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:2.0 available at /tools/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670/2.0/board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at /tools/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+open_project /home/ubuntu/Desktop/lab-wlos_baseline/vivado/vvd_caravel_fpga/vvd_caravel_fpga.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/ubuntu/Desktop/lab-wlos_baseline/vivado/vitis_prj/hls_caravel_ps'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/ubuntu/Desktop/lab-wlos_baseline/vivado/vitis_prj/hls_output_pin'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/ubuntu/Desktop/lab-wlos_baseline/vivado/vitis_prj/hls_read_romcode'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/tools/Xilinx/Vivado/2022.1/data/ip'.
+open_project: Time (s): cpu = 00:00:21 ; elapsed = 00:00:28 . Memory (MB): peak = 7591.887 ; gain = 134.316 ; free physical = 4870 ; free virtual = 19845
+update_compile_order -fileset sources_1
+phys_opt_design -hold_fix
+Command: phys_opt_design -hold_fix
+ERROR: [Vivado_Tcl 4-385] No open design. Please open a design before executing phys_opt_design.
+0 Infos, 0 Warnings, 0 Critical Warnings and 2 Errors encountered.
+phys_opt_design failed
+ERROR: [Common 17-53] User Exception: No open design. Please open an elaborated, synthesized or implemented design before executing this command.
+open_run impl_1
+INFO: [Device 21-403] Loading part xc7z020clg400-1
+Netlist sorting complete. Time (s): cpu = 00:00:00.07 ; elapsed = 00:00:00.07 . Memory (MB): peak = 7934.047 ; gain = 0.000 ; free physical = 4396 ; free virtual = 19442
+INFO: [Netlist 29-17] Analyzing 470 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2022.1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Timing 38-478] Restoring timing data from binary archive.
+INFO: [Timing 38-479] Binary timing data restore complete.
+INFO: [Project 1-856] Restoring constraints from binary archive.
+INFO: [Project 1-853] Binary constraint restore complete.
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Read XDEF Files: Time (s): cpu = 00:00:00.68 ; elapsed = 00:00:00.76 . Memory (MB): peak = 8246.438 ; gain = 3.000 ; free physical = 3780 ; free virtual = 18864
+Restored from archive | CPU: 0.910000 secs | Memory: 15.309349 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:00.69 ; elapsed = 00:00:00.76 . Memory (MB): peak = 8246.438 ; gain = 3.000 ; free physical = 3780 ; free virtual = 18864
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 8246.438 ; gain = 0.000 ; free physical = 3780 ; free virtual = 18865
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 5 instances were transformed.
+  RAM32M => RAM32M (RAMD32(x6), RAMS32(x2)): 4 instances
+  RAM32X1D => RAM32X1D (RAMD32(x2)): 1 instance 
+
+open_run: Time (s): cpu = 00:00:42 ; elapsed = 00:00:36 . Memory (MB): peak = 8474.117 ; gain = 540.070 ; free physical = 3565 ; free virtual = 18654
+CRITICAL WARNING: [Timing 38-282] The design failed to meet the timing requirements. Please see the timing summary report for details on the timing violations.
+report_timing_summary -delay_type min_max -report_unconstrained -check_timing_verbose -max_paths 10 -input_pins -routable_nets -name timing_1
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -1, Delay Type: min_max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 8 CPUs
+report_timing_summary: Time (s): cpu = 00:00:10 ; elapsed = 00:00:09 . Memory (MB): peak = 8474.117 ; gain = 0.000 ; free physical = 3314 ; free virtual = 18412
+phys_opt_design -hold_fix
+Command: phys_opt_design -hold_fix
+Attempting to get a license for feature 'Implementation' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7z020'
+INFO: [Vivado_Tcl 4-241] Physical synthesis in post route mode ( 100.0% nets are fully routed)
+INFO: [Vivado_Tcl 4-383] Design worst setup slack (WNS) is greater than or equal to 0.000 ns. Skipping all physical synthesis optimizations.
+INFO: [Vivado_Tcl 4-1435] PhysOpt_Tcl_Interface Runtime Before Starting Physical Synthesis Task | CPU: 10.74s |  WALL: 3.30s
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 8474.117 ; gain = 0.000 ; free physical = 3320 ; free virtual = 18418
+
+Starting Physical Synthesis Task
+
+Phase 1 Physical Synthesis Initialization
+INFO: [Physopt 32-721] Multithreading enabled for phys_opt_design using a maximum of 8 CPUs
+INFO: [Physopt 32-668] Current Timing Summary | WNS=9.421 | TNS=0.000 | WHS=-0.609 | THS=-0.609 |
+Phase 1 Physical Synthesis Initialization | Checksum: 1b3aa6d8d
+
+Time (s): cpu = 00:00:04 ; elapsed = 00:00:03 . Memory (MB): peak = 8486.133 ; gain = 12.016 ; free physical = 3450 ; free virtual = 18549
+
+Phase 2 Hold Fix Optimization
+INFO: [Physopt 32-668] Current Timing Summary | WNS=9.421 | TNS=0.000 | WHS=-0.609 | THS=-0.609 |
+INFO: [Physopt 32-45] Identified 1 candidate net for hold slack optimization.
+INFO: [Physopt 32-234] Optimized 1 net. Inserted 0 new ZHOLD_DELAYs. Calibrated 0 existing ZHOLD_DELAYs. Inserted 1 buffer.
+
+INFO: [Physopt 32-668] Current Timing Summary | WNS=9.241 | TNS=0.000 | WHS=0.019 | THS=0.000 |
+Phase 2 Hold Fix Optimization | Checksum: 1b3aa6d8d
+
+Time (s): cpu = 00:00:39 ; elapsed = 00:00:34 . Memory (MB): peak = 8656.008 ; gain = 181.891 ; free physical = 3321 ; free virtual = 18422
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 8656.008 ; gain = 0.000 ; free physical = 3321 ; free virtual = 18422
+INFO: [Physopt 32-669] Post Physical Optimization Timing Summary | WNS=9.241 | TNS=0.000 | WHS=0.019 | THS=0.000 |
+
+Summary of Physical Synthesis Optimizations
+============================================
+
+
+Summary of Hold Fix Optimizations
+=================================
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+|  Optimization               |  WHS Gain (ns)  |  THS Gain (ns)  |  Added LUTs  |  Added FFs  |  Optimized Nets  |  Dont Touch  |  Iterations  |  Elapsed   |
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+|  LUT1 and ZHOLD Insertion   |          0.628  |          0.609  |           1  |          0  |               1  |           0  |           1  |  00:00:30  |
+|  Total                      |          0.628  |          0.609  |           1  |          0  |               1  |           0  |           1  |  00:00:30  |
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 8656.008 ; gain = 0.000 ; free physical = 3321 ; free virtual = 18422
+Ending Physical Synthesis Task | Checksum: 18b044741
+
+Time (s): cpu = 00:00:39 ; elapsed = 00:00:34 . Memory (MB): peak = 8656.008 ; gain = 181.891 ; free physical = 3321 ; free virtual = 18423
+INFO: [Common 17-83] Releasing license: Implementation
+12 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+phys_opt_design completed successfully
+phys_opt_design: Time (s): cpu = 00:00:44 ; elapsed = 00:00:38 . Memory (MB): peak = 8656.008 ; gain = 181.891 ; free physical = 3405 ; free virtual = 18507
+report_timing_summary -delay_type min_max -report_unconstrained -check_timing_verbose -max_paths 10 -input_pins -routable_nets -name timing_1
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -1, Delay Type: min_max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 8 CPUs
+report_timing_summary: Time (s): cpu = 00:00:38 ; elapsed = 00:00:10 . Memory (MB): peak = 8665.875 ; gain = 9.867 ; free physical = 3276 ; free virtual = 18377
+exit
+INFO: [Common 17-206] Exiting Vivado at Sun Dec 17 05:02:28 2023...

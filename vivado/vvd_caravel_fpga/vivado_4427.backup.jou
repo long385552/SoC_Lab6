@@ -1,0 +1,20 @@
+#-----------------------------------------------------------
+# Vivado v2022.1 (64-bit)
+# SW Build 3526262 on Mon Apr 18 15:47:01 MDT 2022
+# IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+# Start of session at: Sun Dec 17 04:52:13 2023
+# Process ID: 4427
+# Current directory: /home/ubuntu/Desktop/lab-wlos_baseline/vivado/vvd_caravel_fpga
+# Command line: vivado
+# Log file: /home/ubuntu/Desktop/lab-wlos_baseline/vivado/vvd_caravel_fpga/vivado.log
+# Journal file: /home/ubuntu/Desktop/lab-wlos_baseline/vivado/vvd_caravel_fpga/vivado.jou
+# Running On: ubuntu2004, OS: Linux, CPU Frequency: 3705.890 MHz, CPU Physical cores: 12, Host memory: 11390 MB
+#-----------------------------------------------------------
+start_gui
+open_project /home/ubuntu/Desktop/lab-wlos_baseline/vivado/vvd_caravel_fpga/vvd_caravel_fpga.xpr
+update_compile_order -fileset sources_1
+phys_opt_design -hold_fix
+open_run impl_1
+report_timing_summary -delay_type min_max -report_unconstrained -check_timing_verbose -max_paths 10 -input_pins -routable_nets -name timing_1
+phys_opt_design -hold_fix
+report_timing_summary -delay_type min_max -report_unconstrained -check_timing_verbose -max_paths 10 -input_pins -routable_nets -name timing_1

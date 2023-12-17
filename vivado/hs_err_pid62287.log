@@ -1,0 +1,19 @@
+#
+# An unexpected error has occurred (11)
+#
+Stack:
+/tools/Xilinx/Vivado/2022.1/tps/lnx64/jre11.0.11_9/lib//server/libjvm.so(+0xbefecb) [0x7fc8e1402ecb]
+/tools/Xilinx/Vivado/2022.1/tps/lnx64/jre11.0.11_9/lib//server/libjvm.so(JVM_handle_linux_signal+0xd1) [0x7fc8e1409c81]
+/tools/Xilinx/Vivado/2022.1/tps/lnx64/jre11.0.11_9/lib//server/libjvm.so(+0xbead23) [0x7fc8e13fdd23]
+/lib/x86_64-linux-gnu/libc.so.6(+0x43090) [0x7fc93828e090]
+/tools/Xilinx/Vivado/2022.1/tps/lnx64/jre11.0.11_9/lib/libjimage.so(+0x2759) [0x7fc8e01cd759]
+/tools/Xilinx/Vivado/2022.1/tps/lnx64/jre11.0.11_9/lib/libjimage.so(+0x3674) [0x7fc8e01ce674]
+/tools/Xilinx/Vivado/2022.1/tps/lnx64/jre11.0.11_9/lib/libjimage.so(JIMAGE_FindResource+0xc8) [0x7fc8e01ceb48]
+/tools/Xilinx/Vivado/2022.1/tps/lnx64/jre11.0.11_9/lib//server/libjvm.so(+0x5bc27a) [0x7fc8e0dcf27a]
+/tools/Xilinx/Vivado/2022.1/tps/lnx64/jre11.0.11_9/lib//server/libjvm.so(+0x5b94bc) [0x7fc8e0dcc4bc]
+/tools/Xilinx/Vivado/2022.1/tps/lnx64/jre11.0.11_9/lib//server/libjvm.so(+0xd57abc) [0x7fc8e156aabc]
+/tools/Xilinx/Vivado/2022.1/tps/lnx64/jre11.0.11_9/lib//server/libjvm.so(+0xd5847a) [0x7fc8e156b47a]
+/tools/Xilinx/Vivado/2022.1/tps/lnx64/jre11.0.11_9/lib//server/libjvm.so(+0xd59065) [0x7fc8e156c065]
+/tools/Xilinx/Vivado/2022.1/tps/lnx64/jre11.0.11_9/lib//server/libjvm.so(+0x673440) [0x7fc8e0e86440]
+/tools/Xilinx/Vivado/2022.1/tps/lnx64/jre11.0.11_9/lib//server/libjvm.so(+0x85b904) [0x7fc8e106e904]
+[0x7fc8c8828c79]

@@ -1,0 +1,112 @@
+[*]
+[*] GTKWave Analyzer v3.3.103 (w)1999-2019 BSI
+[*] Sun Dec 17 08:02:21 2023
+[*]
+[dumpfile] "/home/ubuntu/Desktop/lab-wlos_baseline/testbench/counter_la_wlop/counter_la_wlop.vcd"
+[dumpfile_mtime] "Sat Dec 16 20:21:42 2023"
+[dumpfile_size] 2335744000
+[savefile] "/home/ubuntu/Desktop/lab-wlos_baseline/testbench/counter_la_wlop/counter_la_wlos.gtkw"
+[timestart] 0
+[size] 2048 1081
+[pos] -1 -1
+*-30.706945 6145687500 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] counter_la_wlop_tb.
+[treeopen] counter_la_wlop_tb.uut.
+[treeopen] counter_la_wlop_tb.uut.mprj.
+[treeopen] counter_la_wlop_tb.uut.mprj.mprj.
+[treeopen] counter_la_wlop_tb.uut.mprj.uart.
+[treeopen] counter_la_wlop_tb.uut.padframe.mprj_pads.
+[treeopen] counter_la_wlop_tb.uut.soc.
+[treeopen] counter_la_wlop_tb.uut.soc.core.
+[treeopen] counter_la_wlop_tb.uut.soc.core.VexRiscv.
+[sst_width] 360
+[signals_width] 214
+[sst_expanded] 1
+[sst_vpaned_height] 321
+@200
+-#wishbone
+@28
+counter_la_wlop_tb.uut.mprj.wb_clk_i
+counter_la_wlop_tb.uut.mprj.wb_rst_i
+@22
+counter_la_wlop_tb.uut.mprj.wbs_adr_i[31:0]
+@28
+counter_la_wlop_tb.uut.mprj.wbs_cyc_i
+counter_la_wlop_tb.uut.mprj.wbs_stb_i
+counter_la_wlop_tb.uut.mprj.wbs_we_i
+@22
+counter_la_wlop_tb.uut.mprj.wbs_dat_i[31:0]
+counter_la_wlop_tb.uut.mprj.wbs_dat_o[31:0]
+counter_la_wlop_tb.uut.mprj.wbs_sel_i[3:0]
+@28
+counter_la_wlop_tb.uut.mprj.wbs_ack_o
+@200
+-#tbuart_rx
+@28
+counter_la_wlop_tb.tbuart.clk
+@22
+counter_la_wlop_tb.tbuart.clk_cnt[31:0]
+counter_la_wlop_tb.tbuart.clk_div[31:0]
+counter_la_wlop_tb.tbuart.recv_buf_data[79:0]
+@28
+counter_la_wlop_tb.tbuart.recv_next_state[2:0]
+@22
+counter_la_wlop_tb.tbuart.recv_pattern[7:0]
+@28
+counter_la_wlop_tb.tbuart.recv_state[2:0]
+counter_la_wlop_tb.tbuart.rx_index[2:0]
+counter_la_wlop_tb.tbuart.ser_rx
+@200
+-#tbuart_tx
+@28
+counter_la_wlop_tb.tbuart.ser_tx
+counter_la_wlop_tb.tbuart.tr_next_state[2:0]
+counter_la_wlop_tb.tbuart.tr_state[2:0]
+counter_la_wlop_tb.tbuart.tx_busy
+counter_la_wlop_tb.tbuart.tx_clear_req
+@22
+counter_la_wlop_tb.tbuart.tx_data[7:0]
+@28
+counter_la_wlop_tb.tbuart.tx_index[2:0]
+@22
+counter_la_wlop_tb.tbuart.tx_pattern[7:0]
+@28
+counter_la_wlop_tb.tbuart.tx_start
+@200
+-#uart_tx
+@28
+counter_la_wlop_tb.uut.mprj.uart.tx
+counter_la_wlop_tb.uut.mprj.uart.tx_busy
+@22
+counter_la_wlop_tb.uut.mprj.uart.tx_data[7:0]
+@28
+counter_la_wlop_tb.uut.mprj.uart.tx_start
+counter_la_wlop_tb.uut.mprj.uart.tx_start_clear
+@200
+-#uart_rx
+@28
+counter_la_wlop_tb.uut.mprj.uart.user_irq[2:0]
+counter_la_wlop_tb.uut.mprj.uart.irq
+counter_la_wlop_tb.uut.mprj.uart.rx
+counter_la_wlop_tb.uut.mprj.uart.rx_busy
+@22
+counter_la_wlop_tb.uut.mprj.uart.rx_data[7:0]
+@28
+counter_la_wlop_tb.uut.mprj.uart.rx_finish
+counter_la_wlop_tb.uut.mprj.uart.frame_err
+@200
+-#ISR
+@28
+counter_la_wlop_tb.uut.soc.core.gpioin0_gpioin0_irq
+counter_la_wlop_tb.uut.soc.core.gpioin0_gpioin0_pending
+counter_la_wlop_tb.uut.soc.core.gpioin0_gpioin0_status
+counter_la_wlop_tb.uut.soc.core.gpioin0_gpioin0_trigger
+@201
+-#VexRiscV
+@28
+counter_la_wlop_tb.uut.soc.core.VexRiscv.CsrPlugin_mstatus_MPIE
+counter_la_wlop_tb.uut.soc.core.VexRiscv.CsrPlugin_mstatus_MIE
+counter_la_wlop_tb.uut.soc.core.VexRiscv.CsrPlugin_mie_MEIE
+counter_la_wlop_tb.uut.soc.core.VexRiscv.CsrPlugin_mip_MEIP
+[pattern_trace] 1
+[pattern_trace] 0
